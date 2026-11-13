@@ -1,0 +1,42 @@
+ 
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
+dist/
+build/
+
+# Python environment
+backend/.venv/
+
+# Database files
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Patient uploads and private files
+backend/uploads/
+uploads/
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
